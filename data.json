@@ -1,0 +1,99 @@
+{
+  "data": [
+    {
+      "keywords": ["hello", "hi", "hey", "hii"],
+      "answer": "Hello! How can I help you today?"
+    },
+    {
+      "keywords": ["name", "who", "are", "you"],
+      "answer": "I am your personal chatbot assistant — here to answer your questions and help you learn!"
+    },
+    {
+      "keywords": ["how", "are", "you", "doing"],
+      "answer": "I'm just a program, but I'm doing great! Thanks for asking 😊"
+    },
+    {
+      "keywords": ["python", "language"],
+      "answer": "Python is a high-level, interpreted programming language known for its simplicity and readability."
+    },
+    {
+      "keywords": ["ai", "artificial intelligence"],
+      "answer": "AI stands for Artificial Intelligence. It refers to systems that perform tasks requiring human-like intelligence."
+    },
+    {
+      "keywords": ["ml", "machine learning"],
+      "answer": "Machine Learning is a subset of AI that allows computers to learn from data and improve automatically."
+    },
+    {
+      "keywords": ["sql", "database", "query"],
+      "answer": "SQL (Structured Query Language) is used to manage and manipulate data in relational databases."
+    },
+    {
+      "keywords": ["flask", "web", "framework"],
+      "answer": "Flask is a lightweight Python web framework used to build web applications quickly and easily."
+    },
+    {
+      "keywords": ["bye", "goodbye", "see you"],
+      "answer": "Goodbye! Have a great day 👋"
+    },
+    {
+      "keywords": ["what", "is", "chatbot"],
+      "answer": "A chatbot is an AI program that simulates human conversation and provides automated responses."
+    },
+    {
+      "keywords": ["how", "does", "chatbot", "work"],
+      "answer": "A chatbot works by matching user input to predefined keywords or using AI models to understand and generate natural responses."
+    },
+    {
+      "keywords": ["difference", "ai", "ml"],
+      "answer": "AI is the broader concept of machines simulating human intelligence. Machine Learning (ML) is a subset of AI that focuses on learning from data."
+    },
+    {
+      "keywords": ["what", "is", "nlp"],
+      "answer": "NLP (Natural Language Processing) is a branch of AI that helps computers understand, interpret, and respond to human language."
+    },
+    {
+      "keywords": ["what", "is", "deep learning"],
+      "answer": "Deep Learning is a type of Machine Learning that uses neural networks with many layers to process complex data like images or speech."
+    }
+  ],
+
+  "ChatbotPlanning": {
+    "Strategy_Purpose": {
+      "description": "Defines the 'Why' — the core reason and expected outcomes for building the chatbot.",
+      "questions": [
+        "What is the single biggest problem this chatbot is trying to solve?",
+        "Who exactly will be using this chatbot (target audience)?",
+        "Why would someone use this chatbot over other options like calling or emailing?",
+        "How will we measure the chatbot’s success (KPIs or metrics)?"
+      ]
+    },
+    "Functionality_Scope": {
+      "description": "Defines the 'What' — what the chatbot can do and what systems it connects with.",
+      "questions": [
+        "What are the top 3–5 tasks users should be able to complete?",
+        "What types of questions will the chatbot answer (simple, transactional, complex)?",
+        "Which systems should the chatbot integrate with (e.g., CRM, calendar, database)?",
+        "What happens when the chatbot doesn’t know an answer — is there a human handover process?"
+      ]
+    },
+    "Design_Personality": {
+      "description": "Defines the 'How' — the chatbot’s persona, tone, and user interaction style.",
+      "questions": [
+        "What is the chatbot’s name and personality (formal, friendly, casual)?",
+        "What tone of voice and language style should it use?",
+        "How will conversations start (welcome messages, menus, or free-form text)?",
+        "What will the chatbot say when it doesn’t understand something?"
+      ]
+    },
+    "Technical_Maintenance": {
+      "description": "Defines the 'Where' — technical implementation and long-term upkeep.",
+      "questions": [
+        "Where will the chatbot be available (website, WhatsApp, Messenger, Slack)?",
+        "What type of bot will it be — rule-based or AI/NLP-powered?",
+        "What kind of user data will it collect, and how will that data be stored securely?",
+        "Who will maintain and update the chatbot after launch?"
+      ]
+    }
+  }
+}

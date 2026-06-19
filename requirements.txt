@@ -1,0 +1,11 @@
+# OpenSearch for managing vector storage
+opensearch-py==2.1.0
+
+# Other utilities
+numpy==1.24.0
+pandas==1.5.3
+requests==2.31.0
+
+# For document processing (optional, if PDFs need parsing)
+PyPDF2==3.0.0
+langchain==0.0.258
